@@ -1,6 +1,6 @@
 {
   "name": "cf-kit",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "cf-kit is a utility helper to build dynamic AWS cloudformation typescript templates",
   "author": "Victória Rose",
   "main": "build/index.js",

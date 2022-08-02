@@ -17,7 +17,7 @@ class Builder {
     }
 
     addParameter = (name: string, parameter: Record<string, any>) => {
-        this._cloudformation.Resources![name] = parameter;
+        this._cloudformation.Parameters![name] = parameter;
     }
 
     addOutput = (name: string, output: Record<string, any>) => {
